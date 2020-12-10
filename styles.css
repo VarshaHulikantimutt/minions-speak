@@ -1,0 +1,80 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+:root{
+    --primary-color: yellow;
+    --secondary-color: #3730A3;
+
+}
+body{
+    font-family: 'Combo', cursive;
+    font-size: x-large;
+    margin: 0px;
+    background-image:url(images/minionbackground.png);
+    position: fixed;
+}
+
+#text-input{
+    font-size: large;
+    font-family: 'Combo', cursive;
+    height: 10vh;
+    width: 50%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+#text-output{
+    font-family: 'Combo', cursive;
+    height: 10vh;
+    width: 50%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: white;
+}
+#btn-translate{
+    font-family: 'Combo', cursive;
+    margin: 1rem 1rem 1rem 15rem ;
+    padding: 10px;
+    width: 20%;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: bolder;
+
+}
+
+.navigation{
+    background-color:var(--primary-color);
+    color: white;
+    padding-block: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-heading {
+    font-size: xx-large;
+    text-align: center;
+    color: var(--secondary-color);
+    padding-top: 1rem;
+}
+.footer{
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+.footer-text{
+    font-size: large;
+    font-family: 'Combo', cursive;
+    height: 10vh;
+    width: 50%;
+    display: block;
+    margin:1rem;
+    padding: 1rem;
+    padding-left:15rem ;
+}
