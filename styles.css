@@ -22,6 +22,8 @@ body{
     display: block;
     margin: 1rem;
     padding: 1rem;
+    margin-left: 15%;
+    margin-right: auto;
 }
 #text-output{
     font-family: 'Combo', cursive;
@@ -32,10 +34,12 @@ body{
     padding: 1rem;
     border: 1px solid black;
     background-color: white;
+    margin-left: 15%;
+    margin-right: auto;
 }
 #btn-translate{
     font-family: 'Combo', cursive;
-    margin: 1rem 1rem 1rem 15rem ;
+    margin: 1% 1% 1% 35% ;
     padding: 10px;
     width: 20%;
     background-color: var(--primary-color);
@@ -43,7 +47,7 @@ body{
     border-radius: 1rem;
     font-size: large;
     font-weight: bolder;
-
+    display: block;
 }
 
 .navigation{
@@ -54,12 +58,15 @@ body{
 }
 .hero{
     padding: 2rem;
+    display: block;
+    margin-left: 1%;
 }
 .hero .hero-heading {
     font-size: xx-large;
-    text-align: center;
+    /* text-align: center; */
     color: var(--secondary-color);
     padding-top: 1rem;
+    padding-left: 35%;
 }
 .footer{
     padding: 2rem 1rem;
@@ -76,5 +83,5 @@ body{
     display: block;
     margin:1rem;
     padding: 1rem;
-    padding-left:15rem ;
+    padding-left:20% ;
 }
